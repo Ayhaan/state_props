@@ -18,6 +18,7 @@ export default class Composant1 extends Component {
                 <h2>{this.props.allState.age}</h2>
                 <p>{this.state.count}</p>
                 <button onClick={this.click}>Clique</button>
+                
             </div>
         )
     }
